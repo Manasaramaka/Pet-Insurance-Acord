@@ -27,10 +27,8 @@ This project was developed as a submission for the **ACORD Student Challenge 202
 ---
 
 ## 🔬 Methodology
-AI GENERATION                PROCESSING PIPELINE              REAL-WORLD VALIDATION
-(GPT-5 + Claude 3.5)   →   Dedupe → Enrich → QC Filter   ←   (5 Major Carriers)
-         ↓                           ↓                               ↓
-              PRODUCTION-READY DATA STANDARDS  (614 → 259 Fields)
+<img width="1092" height="205" alt="image" src="https://github.com/user-attachments/assets/b057b41e-0f8c-47f4-aeeb-ab5d20f843c4" />
+
 
 ### Phase 1 — Data Collection
 | Source | Fields Collected |
@@ -58,9 +56,7 @@ Carriers validated: **Trupanion, Healthy Paws, Fetch, Spot, ASPCA**
 
 **Final output: 259 curated, production-ready fields across 10 categories**
 
-614 raw fields
- └─ 543 after deduplication  (58% retention)
-     └─ 259 after QC curation  (final dataset)
+<img width="1109" height="181" alt="image" src="https://github.com/user-attachments/assets/4974430f-12ac-4d2f-ba2d-c124c2574153" />
 
 ### Categories
 1. Pet Information
@@ -102,15 +98,7 @@ A working Python model that evaluates:
 
 37 production-ready output files including:
 
-| Format | Description |
-|---|---|
-| `.csv` | Master field list |
-| `.xlsx` | Enriched dataset + Top 40 highlighted sheet |
-| `.json` | JSON Schema (RFC 7159) |
-| `.yaml` | OpenAPI 3.0 specification |
-| `.py` | Risk scoring model |
-| `.pdf` / `.pptx` | Presentation deck |
-| Analytics reports | 7 comprehensive reports |
+<img width="1125" height="505" alt="image" src="https://github.com/user-attachments/assets/3cb4ccd2-323d-4c79-8102-2ff21fe54d3e" />
 
 ---
 
@@ -125,24 +113,8 @@ A working Python model that evaluates:
 ---
 
 ## 📁 Repository Structure
-pawsure/
-├── data/
-│   ├── raw/                  # Original AI-generated + carrier fields
-│   ├── processed/            # Deduplicated & enriched dataset
-│   └── final/                # 259 curated fields (CSV, XLSX, JSON)
-├── models/
-│   └── risk_scoring_model.py # Pet insurance risk scoring engine
-├── analytics/
-│   └── reports/              # 7 analytics reports
-├── api/
-│   ├── schema.json           # JSON Schema (RFC 7159)
-│   └── openapi.yaml          # OpenAPI 3.0 spec
-├── notebooks/
-│   └── pipeline.ipynb        # Full processing pipeline
-├── presentation/
-│   └── PAWSURE_ACORD2025.pptx
-└── README.md
 
+<img width="1099" height="637" alt="image" src="https://github.com/user-attachments/assets/e0f5efbb-f3db-4eb1-8263-45b20a64b4c8" />
 
 ---
 
